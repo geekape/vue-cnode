@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "element-ui": "^1.2.8",
+    "flexible": "^0.1.20",
+    "lib-flexible": "^0.3.2",
     "vue": "^2.2.2",
     "vue-router": "^2.3.0"
   },

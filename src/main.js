@@ -5,7 +5,8 @@ import Icon from 'vue-svg-icon/Icon';
 import ElementUI from 'element-ui';
 import axios from 'axios';
 import App from './App';
-import router from './router';
+import router from "./router";
+import "lib-flexible";
 
 Vue.prototype.$http = axios;
 

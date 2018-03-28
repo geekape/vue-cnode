@@ -44,36 +44,37 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import url("https://cdn.bootcss.com/element-ui/1.2.8/theme-default/index.css");
 .head {
     background: #324057;
-    height: 3.6rem;
+    height: 200px;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     img {
-        width: 10rem;
-        height: 3.5rem;
-        margin-left: 10rem;
+        width: 300px;
+        height: 200px;
+        margin-left: 30px;
+        border:0;
     }
     >button {
         display: inline-block;
         float: right;
-        line-height: 3.6rem;
-        margin-right: 10rem;
+        line-height: 3rem;
+        margin-right: 30px;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 30px;
         color: white;
         letter-spacing: 2px;
-        padding-top: 0.2rem;
+
     }
     .dialogDiv {
         font-size: 17px;
     }
     ul {
-        margin-left: 1rem;
+        margin-left: 20px;
     }
     a {
         text-decoration:none;
@@ -83,6 +84,9 @@ export default {
         font-weight: bold;
         color: #1D8CE0;
         font-size: 20px;
+    }
+    .el-dialog {
+        width: 60%;
     }
 }
 

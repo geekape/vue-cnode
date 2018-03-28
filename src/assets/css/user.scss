@@ -1,0 +1,81 @@
+.secDiv {
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    img {
+        vertical-align: middle;
+        width: 100px;
+        height: 100px;
+    }
+    .profile {
+        padding: 20px;
+        background: #EFF2F7;
+        border-radius: 0.3rem;
+        div {
+            margin-bottom: 20px;
+            span {
+                font-size: 35px;
+                color: black;
+                margin-left: 20px;
+            }
+        }
+        p {
+            display: flex;
+            align-items: center;
+            color: grey;
+            margin: 0.5rem 0;
+            span {
+                margin: 0 0.5rem;
+                color: black;
+            }
+        }
+        svg {
+            color: black;
+            margin-left: 0.2rem;
+        }
+    }
+    .recentTopics>p,
+    .recentReplies>p {
+        margin-bottom: 10px;
+        color: black;
+        padding-bottom: 14px;
+    }
+    .recentTopics {
+        padding: 1rem;
+        background: #D3DCE6;
+        border-radius: 0.3rem;
+        div {
+            border-bottom: 2px solid #99A9BF;
+        }
+    }
+    .recentReplies {
+        background: #E5E9F2;
+        padding: 16px;
+        margin: 16px 0;
+        border-radius: 0.3rem;
+    }
+    .userTitle {
+        font-size: 25px;
+    }
+    a {
+        color: #333;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.recentReplies div,
+.recentTopics div {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    border-bottom: 2px solid #C0CCDA;
+    padding-bottom: 20px;
+}
+
+.recentReplies div img,
+.recentTopics div img {
+    margin-right: 16px;
+}

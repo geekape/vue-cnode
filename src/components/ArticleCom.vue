@@ -77,8 +77,12 @@ export default {
     },
 };
 </script>
-
 <style>
+
+</style>
+
+<style lang="scss" scoped>
+@import url('../assets/markdown-github.css');
 #content img {
     max-width: 100%;
     max-height: 100%;
@@ -89,13 +93,9 @@ export default {
     display: flex;
     border-bottom: 2px solid #C0CCDA;
     width: 100%;
-    margin: 0.5rem auto;
-    padding: 1rem 0;
-}
-</style>
 
-<style lang="scss">
-@import url('../assets/markdown-github.css');
+    padding: 15px 0;
+}
 .marginSpan {
     margin: 0 0.5rem;
 }
@@ -105,11 +105,11 @@ export default {
 }
 
 .secDiv {
-    width: 60%;
+    width: 90%;
     background: #fff;
     border: 1px solid #ddd;
     font-size: 20px;
-    padding: 2rem;
+    padding: 20px;
     background: #F9FAFC;
     span,a {
         font-size: 17px;
@@ -123,8 +123,8 @@ export default {
 }
 
 #content {
-    margin: 2rem auto 2rem auto;
-    padding: 2rem 1rem 2rem 1rem;
+    margin: 25px 0;
+    padding: 20px 15px;
     border: 1px solid #ddd;
     line-height: 1.6;
     padding-bottom: 1rem;
@@ -135,9 +135,9 @@ export default {
     display: flex;
     flex-direction: column;
     img {
-        width: 5rem;
-        height: 5rem;
-        margin-right: 1rem;
+        width: 100px;
+        height: 100px;
+        margin-right: 25px;
     }
 }
 
@@ -147,7 +147,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 1rem;
+    margin-left: 10px;
     justify-content: space-around;
 }
 

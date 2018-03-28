@@ -83,14 +83,14 @@ export default {
 
 <style scoped>
 .secDiv {
-    width: 60%;
+    width: 90%;
     background: #F9FAFC;
     border: 1px solid #ddd;
     display: flex;
     flex-direction: column;
     font-size: 22px;
-    padding: 2rem;
-    min-height: 40rem;
+    padding: 20px;
+    min-height: 30px;
 }
 
 a {
@@ -101,15 +101,15 @@ a {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin: 0.5rem 0;
+    margin: 5px 0;
     border-bottom: 2px solid #C0CCDA;
-    padding-bottom: 1rem;
+    padding-bottom: 20px;
 }
 
 .secDiv>div img {
-    width: 4rem;
-    height: 4rem;
-    margin-right: 2rem;
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
 }
 
 .textDiv {
@@ -131,11 +131,11 @@ a {
 
 .stuff {
     font-size: 17px;
-    margin-top: 1rem;
+    margin-top: 16px;
     color: #8492A6;
 }
 
 .stuff span:first-child {
-    margin-right: 2rem;
+    margin-right: 50px;
 }
 </style>
